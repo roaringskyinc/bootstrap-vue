@@ -346,9 +346,9 @@ export default {
     },
     /* istanbul ignore next: not easy to test */
     onMouseOver (evt) {
-      // Focus the item on hover
-      // TODO: Special handling for inputs? Inputs are in a special .dropdown-form container
-      const item = evt.target
+      // // Focus the item on hover
+      // // TODO: Special handling for inputs? Inputs are in a special .dropdown-form container
+      // const item = evt.target
       // if (
       //   item.classList.contains('dropdown-item') &&
       //           !item.disabled &&
