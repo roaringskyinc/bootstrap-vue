@@ -346,17 +346,17 @@ export default {
     },
     /* istanbul ignore next: not easy to test */
     onMouseOver (evt) {
-      // Focus the item on hover
-      // TODO: Special handling for inputs? Inputs are in a special .dropdown-form container
-      const item = evt.target
-      if (
-        item.classList.contains('dropdown-item') &&
-                !item.disabled &&
-                !item.classList.contains('disabled') &&
-                item.focus
-      ) {
-        item.focus()
-      }
+      // // Focus the item on hover
+      // // TODO: Special handling for inputs? Inputs are in a special .dropdown-form container
+      // const item = evt.target
+      // if (
+      //   item.classList.contains('dropdown-item') &&
+      //           !item.disabled &&
+      //           !item.classList.contains('disabled') &&
+      //           item.focus
+      // ) {
+      //   item.focus()
+      // }
     },
     focusNext (evt, up) {
       if (!this.visible) {
